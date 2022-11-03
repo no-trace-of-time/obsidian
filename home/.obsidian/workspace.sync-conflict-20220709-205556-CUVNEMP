@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "774133ee8e51a422",
+    "type": "split",
+    "children": [
+      {
+        "id": "67e5016d090363f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "intranet/passwds.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e15e9b35a8fb0605",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1b6cd8a1df68d8c1",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "b2611c809603cdac",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "867ab232b87b70a2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c371a5f21f7f9342",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "intranet/passwds.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "67e5016d090363f2",
+  "lastOpenFiles": [
+    "intranet/passwds.md",
+    "徐子安/初中/社会实践活动.md"
+  ]
+}

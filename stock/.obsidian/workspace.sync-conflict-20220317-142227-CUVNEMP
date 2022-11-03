@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "a89eacfe5c01869d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c75fc6bc67359203",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "交易记录-202203/2022-03-15.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "584ab38f94d53e3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea37742d75ef4229",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ba2bca246311b60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "38e92d06615d7070",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1fb60171149ba53",
+    "type": "split",
+    "children": [
+      {
+        "id": "0790dbdda2be248e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ee27b23339537bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "交易记录-202203/2022-03-15.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c75fc6bc67359203",
+  "lastOpenFiles": [
+    "交易记录-202203/2022-03-15.md",
+    "交易记录-202203/2022-03-14.md",
+    "交易记录-202203/2022-03-11.md",
+    "交易记录-202203/2022-03-09.md",
+    "交易记录-202203/2022-03-08.md",
+    "交易记录-202203/2022-03-07.md",
+    "交易记录-202203/2022-03-04.md",
+    "交易记录-202203/2022-03-03.md",
+    "交易记录-202203/2022-03-02.md",
+    "交易记录-202203/2022-03-01.md"
+  ]
+}

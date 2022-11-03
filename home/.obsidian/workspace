@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "774133ee8e51a422",
+    "type": "split",
+    "children": [
+      {
+        "id": "67e5016d090363f2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "其他/关于甘肃省公安厅原常务副厅长姚远及其妻子林明宇腐败问题的实名举报.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "029ff0ae18652631",
+    "type": "split",
+    "children": [
+      {
+        "id": "a58b6b7686003996",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52e5f1bd852fdbba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "81e6bbc5f8a936cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "447a850c589b6503",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c45a84501f74b0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ee8ca969e3bbd19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "其他/关于甘肃省公安厅原常务副厅长姚远及其妻子林明宇腐败问题的实名举报.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "67e5016d090363f2",
+  "lastOpenFiles": [
+    "旅游/2022-08-08 浙江安吉附近旅游规划.md",
+    "intranet/passwds.md",
+    "徐子安/初中/社会实践活动.md"
+  ]
+}

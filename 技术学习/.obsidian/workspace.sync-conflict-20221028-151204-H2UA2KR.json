@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c8501b6d7919c79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "990225b5b5238c35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ReadLater/haoelhaoel.github.io.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "32a4f1a135f512b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "视频播放/雷鸟545c的播放设置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1dc21837a600f737",
+    "type": "split",
+    "children": [
+      {
+        "id": "af60bb58e649b3d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90a5e6f2104faf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a90c6cb3ea299cd7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7079a3c23970d405",
+    "type": "split",
+    "children": [
+      {
+        "id": "b384313b5c0511f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0afce0a6a442766",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "视频播放/雷鸟545c的播放设置.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "32a4f1a135f512b6",
+  "lastOpenFiles": [
+    "技巧整理/ZeroTier One.md",
+    "技巧整理/word使用技巧.md",
+    "技巧整理/syncthing文件同步的使用.md",
+    "技巧整理/samba环境设置.md",
+    "技巧整理/pve使用经验总结.md",
+    "技巧整理/obsidian链接的应用.md",
+    "技巧整理/obsidian格式化代码.md",
+    "技巧整理/nas使用.md",
+    "技巧整理/js中eventloop和taskqueue概念总结.md",
+    "技巧整理/国内镜像设置.md"
+  ]
+}

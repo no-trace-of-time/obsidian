@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "07996687d9f3843c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022/05-May/2022-05-19.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "295f4f94b99939fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "146da7eaacf3d22f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9611577f03722a13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ab0e91c2d53d4ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "syncthing",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82f9d31c43ae443a",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb29438f4eec52d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abe17cbbbf479660",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "daily/2022/05-May/2022-05-19.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "07996687d9f3843c",
+  "lastOpenFiles": [
+    "daily/2022/05-May/2022-05-19.md",
+    "技巧整理/gogs镜像的repo清单.md",
+    "daily/2022/05-May/2022-05-18.md",
+    "daily/2022/05-May/2022-05-07.md",
+    "ReadLater/The Erlang Shell.md",
+    "技巧整理/word使用技巧.md",
+    "技巧整理/syncthing文件同步的使用.md",
+    "技巧整理/passwords.md",
+    "技巧整理/ZeroTier One.md",
+    "技巧整理/samba环境设置.md"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a54c8188f548c39",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022/02-February/2022-02-11.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "295f4f94b99939fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "146da7eaacf3d22f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9611577f03722a13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ab0e91c2d53d4ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82f9d31c43ae443a",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb29438f4eec52d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abe17cbbbf479660",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "daily/2022/02-February/2022-02-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "2a54c8188f548c39",
+  "lastOpenFiles": [
+    "daily/2022/02-February/2022-02-11.md",
+    "技巧整理/obsidian.md",
+    "Webpage/A beginner's guide to note taking using Obsidian.md",
+    "A beginner's guide to note taking using Obsidian.md",
+    "A beginner's guide to note taking using Obsidian 1.md",
+    "daily/2022/02-February/2022-02-08.md",
+    "todos.md",
+    "dhcp服务器的增强.md",
+    "视频播放/雷鸟545c的播放设置.md",
+    "Webpage/使用TMDB(themoviedb)无法刮削电影的解决办法.md"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "990225b5b5238c35",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022/08-August/2022-08-21.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1dc21837a600f737",
+    "type": "split",
+    "children": [
+      {
+        "id": "af60bb58e649b3d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90a5e6f2104faf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a90c6cb3ea299cd7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "激活",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7079a3c23970d405",
+    "type": "split",
+    "children": [
+      {
+        "id": "b384313b5c0511f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0afce0a6a442766",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "daily/2022/08-August/2022-08-21.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "990225b5b5238c35",
+  "lastOpenFiles": [
+    "ReadLater/The Erlang Shell.md",
+    "daily/2022/08-August/2022-08-20.md",
+    "todos.md",
+    "ReadLater/haoelhaoel.github.io.md",
+    "security info/passwords.md",
+    "daily/2022/07-July/2022-07-21.md",
+    "daily/2022/07-July/2022-07-21.sync-conflict-20220820-095824-H2UA2KR.md",
+    "security info/passwords.sync-conflict-20220820-095823-H2UA2KR.md",
+    "todos.sync-conflict-20220820-100009-H2UA2KR.md",
+    "todos.sync-conflict-20220820-100008-H2UA2KR.md"
+  ]
+}

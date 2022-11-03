@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "32c2e09c38097002",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022/02-February/2022-02-11.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "295f4f94b99939fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "146da7eaacf3d22f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9611577f03722a13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3ab0e91c2d53d4ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82f9d31c43ae443a",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb29438f4eec52d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abe17cbbbf479660",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "daily/2022/02-February/2022-02-11.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "32c2e09c38097002",
+  "lastOpenFiles": [
+    "daily/2022/02-February/2022-02-11.md",
+    "ReadLater/The Erlang Shell.md",
+    "ReadLater/ErlangBuild.md",
+    "daily/2022/04-April/2022-04-10.md",
+    "Webpage/scoop最新安装教程2021_路人夹饼的博客-程序员资料_scoop安装 - 程序员资料.md",
+    "技巧整理/国内镜像设置.md",
+    "技巧整理/code server安装和配置.md",
+    "技巧整理/gogs-cli使用.md",
+    "技巧整理/js中eventloop和taskqueue概念总结.md",
+    "技巧整理/nas使用.md"
+  ]
+}

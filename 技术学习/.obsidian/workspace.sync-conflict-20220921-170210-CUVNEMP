@@ -1,0 +1,88 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "32c2e09c38097002",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily/2022/07-July/2022-07-09.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63bfbc1cb2000353",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6da6ccce5364074e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "1c2a94e2459230f9",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "640bea8bef5f53ca",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9ba947f6221f07c8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "daily/2022/07-July/2022-07-09.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "32c2e09c38097002",
+  "lastOpenFiles": [
+    "daily/2022/07-July/2022-07-09.md",
+    "daily/2022/06-June/2022-06-27.md",
+    "技巧整理/国内镜像设置.md",
+    "技巧整理/ZeroTier One.md",
+    "daily/2022/06-June/2022-06-17.md",
+    "daily/2022/02-February/2022-02-11.md",
+    "ReadLater/The Erlang Shell.md",
+    "ReadLater/ErlangBuild.md",
+    "daily/2022/04-April/2022-04-10.md",
+    "Webpage/scoop最新安装教程2021_路人夹饼的博客-程序员资料_scoop安装 - 程序员资料.md"
+  ]
+}

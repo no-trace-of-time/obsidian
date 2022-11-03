@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "aa980ec3ca1dffb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c8501b6d7919c79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64ff2b49d7b5a690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022/08-August/2022-08-15.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0688936effd1ad5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技巧整理/windows使用技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b315218888f7592b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b56c19099e0adcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "security info/passwords.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1dc21837a600f737",
+    "type": "split",
+    "children": [
+      {
+        "id": "af60bb58e649b3d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90a5e6f2104faf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a90c6cb3ea299cd7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "远程桌面",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7079a3c23970d405",
+    "type": "split",
+    "children": [
+      {
+        "id": "b384313b5c0511f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0afce0a6a442766",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "security info/passwords.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4b56c19099e0adcf",
+  "lastOpenFiles": [
+    "cloud info/云服务器信息.md",
+    "daily/2022/08-August/2022-08-15.sync-conflict-20221026-230549-H2UA2KR.md",
+    "daily/2022/08-August/2022-08-15.md",
+    "技巧整理/syncthing文件同步的使用.sync-conflict-20221026-230550-H2UA2KR.md",
+    "技巧整理/syncthing文件同步的使用.md",
+    "daily/2022/04-April/2022-04-10.sync-conflict-20220820-100009-H2UA2KR.md",
+    "daily/2022/04-April/2022-04-10.sync-conflict-20220820-100008-H2UA2KR.md",
+    "daily/2022/04-April/2022-04-10.sync-conflict-20221026-230549-H2UA2KR.md",
+    "daily/2022/04-April/2022-04-10.md",
+    "daily/2022/07-July/2022-07-09.md"
+  ]
+}

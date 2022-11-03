@@ -1,0 +1,5 @@
+I had a nagging urge to code recently. An urge not quite strong enough to get me into one of the larger projects I have sitting around. I just wanted a few hours, not a few days, of fiddling. In a moment of serendipity, I saw a few posts about someone experimenting with a new, simple image compression format they called the ["Quite Okay Image (QOI)" format](https://phoboslab.org/log/2021/11/qoi-fast-lossless-image-compression). Bit twiddling? Sounds perfect!
+
+To spoil the ending, I've put my [Erlang implementation of the format](https://github.com/beerriot/eqoi) on Github. The format is still under development, so this implementation is just compatible with what their project had up at the time. I have a few fun further implementation ideas that I might play with, but for now, I have some thoughts on the format to share.
+
+I like the streamability of the format. To help debug my implementation, I wrote a [little tool](https://github.com/beerriot/eqoi/blob/main/src/eqoi.erl
