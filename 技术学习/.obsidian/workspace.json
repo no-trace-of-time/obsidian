@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todos.md",
+                "file": "技巧整理/git使用技巧.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74e1f4f82b23dd81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todos.md",
+                "file": "技巧整理/git使用技巧.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,15 +122,15 @@
   },
   "active": "3000058274e1c966",
   "lastOpenFiles": [
-    "技巧整理/dell-latitude-e6410上fbsd的安装.md",
+    "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
+    "技巧整理/git使用技巧.md",
     "todos.md",
+    "技巧整理/dell-latitude-e6410上fbsd的安装.md",
     "daily/2022/11-November/2022-11-01.md",
     "技巧整理/obsidian格式化代码.md",
     "daily/2022/10-October/2022-10-31.md",
     "daily/2022/10-October/2022-10-30.md",
     "技巧整理/windows使用技巧.md",
-    "daily/2022/10-October/2022-10-29.md",
-    "技巧整理/obsidian链接的应用.md",
-    "技巧整理/nas使用.md"
+    "daily/2022/10-October/2022-10-29.md"
   ]
 }
