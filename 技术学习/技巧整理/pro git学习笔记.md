@@ -269,4 +269,60 @@
 		对应跟踪的远程分支：上游分支，upstream branch
 		git pull :自动从upstream branch上抓取内容，合并到
 		git clone remote... 会自动创建对应origin/master的本地跟踪分支master
+		git checkout --track origin/serverfix:快捷方式
+			创建跟踪分支，同时切换到该分支
+		git checkout serverfix： 更快捷方式
+			如果serverfix分支当前不存在，并且刚好只有一个名字匹配的远程分支，则自动创建一个跟踪分支，并切换过去
+		git checkout -b sf origin/serverfix： 创建不同名字的跟踪分支
+		也可以对于已有的本地分支，通过指定upstream branch的方式，来指定其成为跟踪分支
+			git branch -u origin/serverfix
+				-u = --set-upstream-to
+		上游快捷方式：
+			@{upstream}/@{u}
+			git merge @{u}
+		git branch -vv：查看所有跟踪分支
+			更新remote端的数据
+				git fetch --all; git branch -vv
+	拉取
+		git fetch：不会修改workdir内容
+		git pull: git fetch+merge
+	删除远程分支
+		git push origin --delete serverfix: 只是删除了这个branch对应的指针，remote上恢复一般比较容易
+	变基：rebase
+		合并不同分支内容的另外一个做法，第一种是merge
+		merge：
+			![[Pasted image 20221104185856.png]]
+		rebase：
+			![[Pasted image 20221104185934.png]]
+			git checkout experiment
+			git rebase master
+				将C4对于C2的修改内容，施加到C3上，结果作为新的commit
+			git checkout master
+			git merge experiment
+				对master进行fast-forward
+				![[Pasted image 20221104190204.png]]
+			rebase使得commit log更加整洁，分叉少
+			一般确保向远程分支push时保持log整洁的额场合使用
+				先本地开发，自由使用branch
+				开发完成，先将自己代码rebase到origin/master
+				push origin/master
+				这样，remote的开发人员就不用再合并了，直接fast forward即可
+	更有趣的rebase
+		![[Pasted image 20221104190532.png]]
+		将client的变更跳过和server的合并，引用到master上
+			git rebase --onto master server client
+				将C8、C9的修改内容在master上重放
+				结果：
+				![[Pasted image 20221104190756.png]]
+			git checkout master
+			git merge client
+		随后，将server分支变动也整合进来
+			git rebase master server
+				等价于：
+					git checkout server
+					git rebase master
+				结果：
+				![[Pasted image 20221104190958.png]]
+	变基的风险
+		准则：**如果提交存在于你的仓库之外，而别人可能基于这些提交进行开发，那么不要执行变基**
 		

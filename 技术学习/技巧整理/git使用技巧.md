@@ -59,3 +59,13 @@ git config --global core.quotepath false
 	设置一个credential cache
 		git config --global credential cache
 		可以缓存几分钟
+# 命令行上创建远程repo
+	github API v3
+	```
+		curl -u 'USER' https://api.github.com/user/repos -d {"name":"REPO","private":"true"}
+```
+	github有自己的命令行接口，gh
+
+gitee/gitea/gogs，应当有基本类似的api
+	其实可以用gogs cli这样的工具来创建
+	
