@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1c8501b6d7919c79",
+        "id": "1dd7f3ad575464e5",
         "type": "tabs",
         "children": [
           {
-            "id": "c330cc32987c79ff",
+            "id": "c889bee81ba67dff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技巧整理/dell-latitude-e6410上fbsd的安装.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3000058274e1c966",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "技巧整理/git使用技巧.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74e1f4f82b23dd81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
+                "file": "技巧整理/pro git学习笔记.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技巧整理/git使用技巧.md",
+                "file": "技巧整理/pro git学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +85,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "1fade0cedff1cf87",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "技巧整理/pro git学习笔记.md"
               }
             }
           }
@@ -120,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3000058274e1c966",
+  "active": "c889bee81ba67dff",
   "lastOpenFiles": [
-    "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
     "技巧整理/git使用技巧.md",
+    "技巧整理/pro git学习笔记.md",
+    "技巧整理/attachments/Pasted image 20221104170849.png",
+    "技巧整理/obsidian链接的应用.md",
+    "技巧整理/attachments/Pasted image 20220226224504.png",
+    "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
     "todos.md",
     "技巧整理/dell-latitude-e6410上fbsd的安装.md",
     "daily/2022/11-November/2022-11-01.md",
-    "技巧整理/obsidian格式化代码.md",
-    "daily/2022/10-October/2022-10-31.md",
-    "daily/2022/10-October/2022-10-30.md",
-    "技巧整理/windows使用技巧.md",
-    "daily/2022/10-October/2022-10-29.md"
+    "技巧整理/obsidian格式化代码.md"
   ]
 }

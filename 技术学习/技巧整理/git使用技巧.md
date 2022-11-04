@@ -18,6 +18,12 @@ obsidian repo的案例
 
 	删除一个多余的remote push url
 	git remote set-url --delete --push all git@...
+
+	同时向多个orgin提交
+		git push all
+			需要注意：all只有nas的fetch url的话，push是不会提交内容的
+				需要增加nas的push url，才能实现三者同时push到remote服务器
+		
 	
 	
 # 修改remote的url
@@ -49,3 +55,7 @@ git config --global core.quotepath false
 		git remote add origin git@github.com:no-trace-of-time/obsidian.git
 		git push --set-upstream origin master
 			可以简写为：git pubsh -u origin master
+# https url的push避免每次都输入用户名、密码
+	设置一个credential cache
+		git config --global credential cache
+		可以缓存几分钟
