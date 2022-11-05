@@ -359,4 +359,85 @@
 		记录所有commit，太繁琐
 		改变commit内容，缺少了痕迹
 		是个tradeoff
-		
+# 4 服务器上的git
+# 4.1 协议
+	支持4中传输协议：
+		- Local：基于本机（或者共享文件系统）的目录体系
+			git clone /srv/git/project.jit: 直接使用link或者cp所需要的文件
+			git clone file:///srv/git/project.jit：会触发使用网络传输的进程，效率比前者慢
+			缺点：
+				共享文件系统更可能比较难配置
+				nfs访问可能比ssh慢
+				仓库难以避免意外损坏
+		- http
+			老版本（1.6.6之前)只能只读，新版本和ssh类似了。
+			智能http协议：比ssh简单，可以使用user/pwd授权，比ssh的公钥简单
+				当前最流行了，可以同时支持匿名访问（类似git），也支持传输授权和加密（类似ssh)，还可以统一url访问
+				优点：
+					方便通过防火墙
+				缺点：
+					https服务端设置
+					授权推送下，凭证管理会复杂些
+			dump http协议：老的，只要http设置post-update hook即可支持。
+				就是hooks/post-update这个文件
+				git直接会默认执行合适的命令:git update-server-info
+		- ssh
+			git clone ssh://[user@]server/project.git
+			缺点：
+				不支持匿名访问，开源不方便
+		- git
+			git监听9418端口，但是无需授权
+			需要先创建git-daemon-export-ok文件
+			一般防火墙不会开放
+# 4.2 在服务器上搭建git
+	先把现有仓库导出为裸仓库-- 不包含当前workdir
+		git clone --bare my_project my_project.git
+	把裸仓库放到服务器上
+```
+	scp -r my_project.git user@git.example.com:/srv/git
+	ssh user@git.example.com
+	cd /srv/git/my_project.git
+	git init --bare --shared
+		该命令不会损坏任何commit、refs等内容
+	其他用户，能上ssh，就自动可以进行git clone了
+```
+	小型安装
+		架设git服务器最复杂的地方在于用户管理。比如部分用户只读，部分用户可读写
+		ssh
+			用普通文件系统权限即可
+			权限分配方式
+				- 每个用户一个本机账户：需要额外创建用户
+				- 建立一个git用户，
+					- 给每个需要写权限的人发送一给ssh公钥，将其加入~/.ssh/authorized_keys
+					- 所有人通过git用户名访问
+					- 访问主机的身份不会影响commit的用户信息
+				- 通过某个ldap服务来使用ssh
+# 4.3 生成ssh公钥
+	ssh-keygen
+# 4.4 配置服务器
+	服务器上创建repo目录
+```
+	cd /srv/git
+	mkdir project.git
+	cd project.git
+	git init --bare
+```
+	首个用户，只需将该repo设置为该项目的remote repo，就可以推送
+```
+	on John's computer
+	cd myproject
+	git init
+	git add . 
+	git commit -m 'initial commit'
+	git remote add origin git@gitserver:/srv/git/project.git
+	git push origin master
+```
+	可以限制git用户登录的shell，比如/usr/local/bin/git-shell
+		git-shell可以配置，限制更多
+	限制用户通过ssh端口转发访问其他git服务器：
+		编辑authorized_keys，在key内容之前，加上选项：
+```
+	no-port-forwarding,no-X11-port-forwarding,no-agent-forwarding,no-pty ssh-rsa ....
+```
+# 4.5 git守护进程
+
