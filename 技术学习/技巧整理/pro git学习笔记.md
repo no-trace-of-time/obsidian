@@ -325,4 +325,38 @@
 				![[Pasted image 20221104190958.png]]
 	变基的风险
 		准则：**如果提交存在于你的仓库之外，而别人可能基于这些提交进行开发，那么不要执行变基**
+			提交存在于你的仓库之外。。。。可能基于这些提交。。。
+			以上内容中的这些提交，具体啥含义？
+			![[Pasted image 20221104225825.png]]
+			![[Pasted image 20221104225844.png]]
+			对照上面两张图，就是C4这个commit，已经push了，就不应当再做rebase后重新push --force了
+			因为rebase之后，自己这边已经消除了c4的痕迹
+			但是，由于做了push，其他开发人员可能会合并到这个commit（其他人从c1开始做branch，那pull后，如果做的早，就会合并到c4）
+				除非rebase之前，没有人做过pull，就不会合并到c4这个commit
+				可惜，实际场景下i，这个要求很容易被突破
+			其他开发继续pull，就会同时出现c4、c4‘这两个相同的commit，形成困扰
+	用变基解决变基
+		对某次提交所引入的修改，git也会计算hash，patch-id
+		如果pull被覆盖过的更新，并将workdir中的工作基于此变更的话，一般情况下git能成功分辨哪些是你的修改，并把它们引用到新分支上
+		如上面的案例，如果不执行合并，而是：
+			git rebase teamone/master
+			git的处理：
+				- 检查workdir下独有的commit(c2、c3/c4/c6/c7)
+				- 检查期中哪些提交不是合并操作的结果（c2/c3/c4)
+				- 检查哪些提交在对方覆盖更新时并没有被纳入目标分支（只有c2/c3，因为c4=c4‘）
+				- 把查到的这些commit引用到teamone/master上
+			![[Pasted image 20221104231028.png]]
+			以上要求对方rebase时确保c4和c4‘几乎一样
+		另一种处理：
+			git pull --rebase，而不是直接pull
+			或者：git fetch;git rebase teamone/master
+			如果希望默认日常使用pull同时有rebase选项，可以配置
+			git config --global pull.rebase true
+		**务必不要对已经push的commit内容做rebase**
+		**如果已经做了，无比提醒其他人要pull是要加--rebase选项**
+
+	变基 vs 合并
+		记录所有commit，太繁琐
+		改变commit内容，缺少了痕迹
+		是个tradeoff
 		
