@@ -39,14 +39,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2022/11-November/2022-11-05.md",
+                "file": "技巧整理/freebsd使用技巧.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022/11-November/2022-11-05.md",
+                "file": "技巧整理/pro git学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022/11-November/2022-11-05.md"
+                "file": "技巧整理/pro git学习笔记.md"
               }
             }
           }
@@ -132,17 +131,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cdd64ceb0400cbe0",
+  "active": "c889bee81ba67dff",
   "lastOpenFiles": [
-    "技巧整理/gogs-cli使用.md",
     "技巧整理/freebsd使用技巧.md",
+    "技巧整理/dell-latitude-e6410上fbsd的安装.md",
+    "技巧整理/code server安装和配置.md",
+    "技巧整理/国内镜像设置.md",
+    "daily/2022/11-November/2022-11-05.md",
+    "技巧整理/gogs-cli使用.md",
     "技巧整理/pro git学习笔记.md",
     "技巧整理/git使用技巧.md",
     "技巧整理/attachments/Pasted image 20221104170849.png",
-    "技巧整理/obsidian链接的应用.md",
-    "技巧整理/attachments/Pasted image 20220226224504.png",
-    "Webpage/Working with Git remotes and pushing to multiple Git repositories  Jigarius.com.md",
-    "todos.md",
-    "技巧整理/dell-latitude-e6410上fbsd的安装.md"
+    "技巧整理/obsidian链接的应用.md"
   ]
 }
