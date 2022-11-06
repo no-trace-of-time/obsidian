@@ -571,4 +571,26 @@
 			git push -u origin featureA
 				服务器上，master分支只有整合者有，其他人必须推送到另外的分支
 		- 可以同时切换到feature B分支工作
-		- 
+		- 定期合并服务器的变更
+			- 来自feature B的
+				- git checkout featureB
+				- git fetch origin
+					- 服务器上变动在featureB2
+				- git merge origin/featureB2
+				- git push -u origin featureB:featureB2
+					- 推送合并结果到featureB2分支上
+		- 查看featureA的服务器上的变更
+			- git fetch origin
+			- git log featureA..origin/featureA
+				- 查看新的工作日志
+			- git checkout featureA
+			- git merge origin/featureA
+			- git commit -am '...'
+			- git push
+		- 整合者整合featureA/featureB2分支内容
+			- git fetch origin
+			 ![[Pasted image 20221106183937.png]]
+			 这种管理团队工作流程的基本顺序
+			 ![[Pasted image 20221106184044.png]]
+派生的公开项目
+	
