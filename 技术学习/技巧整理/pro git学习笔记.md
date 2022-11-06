@@ -440,4 +440,56 @@
 	no-port-forwarding,no-X11-port-forwarding,no-agent-forwarding,no-pty ssh-rsa ....
 ```
 # 4.5 git守护进程
+	git协议的支持
+	优点：
+		- 对于内网，可用于支持大量参与人员或自动系统（ci/cd）只读访问的项目，节省逐一配置ssh公钥的麻烦
+	git deamon --reusedir --base-path=/srv/git/ /srv/git
+		--base-path: 允许用户不指定路径条件下clone操作
+	启动：
+		- systemd
+		- xinetd
+		- 。。。
+	明确通知git哪些repo允许基于服务器的无授权访问：
+		- repo目录下，创建git-daemon-export-ok文件
+			- touch git-daemon-export-ok
+# 4.6 smart http
+	启用git自带的git-http-backend的cgi脚本即可
+```
+	apache: install mod_cgi/mod_alaias/mod_env module
+	chgrp -R www-data /srv/git : cgi script owner
+	apache config file:
+		SetEnv GIT_PROJECT_ROOT /srv/git
+		SetEnv GIT_HTTP_EXPORT_ALL
+			留空，是否无授权就可输出，看git-deamon-export-ok文件是否存在
+		ScriptAlias /git /usr/lib/git-core/git-http-backend/
+		支持写入：
+		<File "git-http-backend">
+			AuthType Basic
+			AuthName "Git Access"
+			AuthUserFile /srv/git/.htpasswd
+			Require expr !(%{QUERY_STRING} -strmatch '*service=git-receive-pack*' || %{REQUEST_URI} =~ m#/git-receive-pack$#)
+			Require valid-user
+		</Files>
+	htpasswd -c /srv/git/.htpasswd schacon : add user schacon
+```
+# 4.7 GitWeb
+	简单的web查看页面，git提供了GitWeb这个cgi脚本
+	git instaweb --http=webrick  : mac osx 预装了ruby
+	启动临时http服务器，并自动打开浏览器，方便查看
+	可以把这个cgi安装在apache之类的web服务器上
+# 4.8 GitLab
+	功能更全的git服务器
+	user
+	group
+	project：repo
+	hook
+	一起工作：
+		- 赋予协作者对git版本库直接push的权限
+		- 使用合并请求
+			- 协作者直接在原始repo上创建分支，提交
+			- 协作者在原始repo上向master分支开启一个合并请求
+			- 无权限的协作者先fork，向副本提交，然后从fork开启到主项目的合并请求
+# 4.9 第三方托管的选择
+
+# 5 分布式git
 
