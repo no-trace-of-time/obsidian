@@ -522,5 +522,53 @@
 			- 最终：主管将集成后的master分支推送到参考仓库，以便所有开发者以此为基础做rebase
 			![[Pasted image 20221106161827.png]]
 # 5.2 向一个项目贡献
-
+ 影响因素
+	 - 活跃贡献者的数量
+	 - 项目使用的工作流程
+	 - 提交权限
 		
+提交准则：创建提交，到提交补丁。。若干好的提示
+	可以参考Git源码中的Documentation/SubmittingPatches
+	- 提交不应当包含任何空白（仅仅包含了增减空格或者空行）错误
+		- 可以通过git diff --check来检查
+	- 尝试让每个提交成为一个逻辑上的独立变更集
+		- 多个问题的提交，最起码利用stage area将工作拆解为每个问题一个commit
+		- 如果一些改动修改了同一文件，尝试使用git add --patch来部分暂存文件
+	- 提交信息，优质提交信息，会使git的使用与协作容易很多
+		- 一般规则
+			- 用少于50字符的单行简要描述变更
+			- 一空行
+			- 一个更详细的解释
+				- 改动的动机
+				- 实现和之前行为的对比
+			- 指令式语气：主动语气，第一人称
+私有小型团队
+	可以类似svn之类集中式系统的工作流程
+	主要区别：
+		- 合并发生在客户端这边，而不是提交时发生在服务器这边
+			- 如果是同一点clone的，尽管修改的不同文件，两人push的时候，也会报错
+				- svn会在服务器端做一次自动合并
+				- git要求先在本地合并提交，然后再push
+				![[Pasted image 20221106175939.png]]
+				issue54分支完成后，了解和remote上master的差别
+				git fetch origin
+				git log --no-merges issue54..origin/master
+				合并的流程：
+				git checkout master
+				git merge issue54
+				git merge origin/master
+				结果如下：
+				![[Pasted image 20221106180243.png]]
+				git push origin master
+	简单流程的通常事件顺序
+	![[Pasted image 20221106180426.png]]
+私有管理团队：大型私有团队
+	小组基于特性进行协作
+	这些团队的贡献将由其他人整合
+	流程：
+		- 在不同feature branch之间切换
+		- 完成feature A的工作后，推送到服务器
+			git push -u origin featureA
+				服务器上，master分支只有整合者有，其他人必须推送到另外的分支
+		- 可以同时切换到feature B分支工作
+		- 
