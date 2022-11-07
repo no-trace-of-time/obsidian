@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技巧整理/freebsd使用技巧.md",
+                "file": "daily/2022/11-November/2022-11-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技巧整理/pro git学习笔记.md",
+                "file": "daily/2022/11-November/2022-11-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技巧整理/pro git学习笔记.md"
+                "file": "daily/2022/11-November/2022-11-07.md"
               }
             }
           }
@@ -131,10 +132,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c889bee81ba67dff",
+  "active": "31f68151fd822ab5",
   "lastOpenFiles": [
-    "技巧整理/freebsd使用技巧.md",
     "技巧整理/pro git学习笔记.md",
+    "技巧整理/freebsd使用技巧.md",
     "技巧整理/dell-latitude-e6410上fbsd的安装.md",
     "技巧整理/code server安装和配置.md",
     "技巧整理/国内镜像设置.md",
