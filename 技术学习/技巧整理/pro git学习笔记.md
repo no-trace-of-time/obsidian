@@ -595,15 +595,52 @@
 派生（fork）的公开项目
 	如何在支持简单fork的git托管上使用其做贡献
 	基本流程
+
 ```
 	git clone
 	git checkout -b featureA
-	...
 	git commit 
 		可以用git rebase -i 将工作压缩成一个单独的提交，或重排提交中的工作使补丁更容易被维护者审核
 	在原始项目中点击Fork按钮，创建一份自己可写的fork repo
-	git remote aadd myfork <url>
-	git push...
+	git remote add myfork <url>
+	git push ...
 		即使工作被拒绝或被拣选，也不必退回自己的master分支
-	通知原项目维护者你有想要合并的内容
-```	
+	通知原项目维护者你有想要合并的内容：拉取请求(pull Request)
+		生成：
+			通过网站操作生成
+			git request-pull命令操作：输出可以通过电子邮件发送
+				git request-pull origin/master myfork
+				
+
+基本流程
+
+```
+
+	![[Pasted image 20221108182910.png]]
+
+	当自己不是维护者时，通常保持跟踪origin/master的master分支会很方便
+		- 工作主题分支独立于主分支，可以rebaae工作更加容易
+		- 开发新特性，不要继续在刚push的分支上工作，从origin/master上重新开始
+			git checkout -b featureB origin/master
+			git commit
+			git push myfork featureB
+			git request-pull origin/master myfork
+			git fetch origin
+	这样，可以让每一个特性保持在repo中，类似补丁队列，可以重写、rebase、修改而不会让特性互相干涉或互相依赖
+	
+	![[Pasted image 20221108182910.png]]
+	当维护者已经拉取了其他一串补丁，然后尝试拉取你的第一个分支，但没干净合并。此时，可以尝试rebase那个分支到origin/master顶部，为维护者解决冲突，然后重新push改动
+	```
+	git checkout featureA
+	git rebase origin/master
+	git push -f myfork featureA
+		因为rebase了，所以必须用-f选项
+		替代选项：push到服务器上要给不同分支（featureAv2)
+	```
+	这样会重写你的历史，现在看起来像是featureA工作之后的提交历史
+	![[Pasted image 20221108183319.png]]	
+
+	一个更加可能的情况：
+		维护者喜欢featureB，但是想要你修改下细节
+		你也可以利用这次机会，将工作基于项目现在的master分支
+		从现在的origin/master开始新分支，

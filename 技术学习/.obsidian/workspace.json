@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c889bee81ba67dff",
+            "id": "31f68151fd822ab5",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,18 +19,6 @@
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "31f68151fd822ab5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2022/11-November/2022-11-08.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -131,11 +119,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c889bee81ba67dff",
+  "active": "31f68151fd822ab5",
   "lastOpenFiles": [
     "daily/2022/11-November/2022-11-08.md",
-    "daily/2022/11-November/2022-11-07.md",
     "技巧整理/pro git学习笔记.md",
+    "daily/2022/11-November/2022-11-07.md",
     "技巧整理/freebsd使用技巧.md",
     "技巧整理/dell-latitude-e6410上fbsd的安装.md",
     "技巧整理/code server安装和配置.md",
