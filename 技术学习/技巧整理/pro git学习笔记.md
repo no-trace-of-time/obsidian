@@ -592,5 +592,18 @@
 			 ![[Pasted image 20221106183937.png]]
 			 这种管理团队工作流程的基本顺序
 			 ![[Pasted image 20221106184044.png]]
-派生的公开项目
-	
+派生（fork）的公开项目
+	如何在支持简单fork的git托管上使用其做贡献
+	基本流程
+```
+	git clone
+	git checkout -b featureA
+	...
+	git commit 
+		可以用git rebase -i 将工作压缩成一个单独的提交，或重排提交中的工作使补丁更容易被维护者审核
+	在原始项目中点击Fork按钮，创建一份自己可写的fork repo
+	git remote aadd myfork <url>
+	git push...
+		即使工作被拒绝或被拣选，也不必退回自己的master分支
+	通知原项目维护者你有想要合并的内容
+```	
