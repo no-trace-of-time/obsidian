@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "a89eacfe5c01869d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9908deaec05de303",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c75fc6bc67359203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2022/11-November/2022-11-09.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8dfe24e9d7bed14f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "交易记录202211/记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "584ab38f94d53e3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea37742d75ef4229",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ba2bca246311b60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "38e92d06615d7070",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1fb60171149ba53",
+    "type": "split",
+    "children": [
+      {
+        "id": "0790dbdda2be248e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ee27b23339537bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "交易记录202211/记录.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8dfe24e9d7bed14f",
+  "lastOpenFiles": [
+    "daily/2022/11-November/2022-11-09.md",
+    "交易记录202208/2022-08-22.md",
+    "交易记录202208/2022-08-12.md",
+    "交易记录202207/2022-07-11.md",
+    "交易记录202206/2022-06-06.md",
+    "交易记录202205/2022-05-19.md",
+    "交易记录202205/2022-05-18.md",
+    "交易记录202205/2022-05-17.md",
+    "交易记录202205/2022-05-16.md",
+    "交易记录202205/2022-05-13.md"
+  ]
+}
