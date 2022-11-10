@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2022/11-November/2022-11-09.md",
+                "file": "daily/2022/11-November/2022-11-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2022/11-November/2022-11-09.md",
+                "file": "daily/2022/11-November/2022-11-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily/2022/11-November/2022-11-09.md"
+                "file": "daily/2022/11-November/2022-11-10.md"
               }
             }
           }
@@ -122,6 +122,7 @@
   },
   "active": "cdd64ceb0400cbe0",
   "lastOpenFiles": [
+    "daily/2022/11-November/2022-11-09.md",
     "技巧整理/pro git学习笔记.md",
     "daily/2022/11-November/2022-11-08.md",
     "daily/2022/11-November/2022-11-07.md",
@@ -130,7 +131,6 @@
     "技巧整理/code server安装和配置.md",
     "技巧整理/国内镜像设置.md",
     "daily/2022/11-November/2022-11-05.md",
-    "技巧整理/gogs-cli使用.md",
-    "技巧整理/git使用技巧.md"
+    "技巧整理/gogs-cli使用.md"
   ]
 }
